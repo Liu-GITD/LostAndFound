@@ -1,0 +1,10 @@
+<!--pages/addpage/addpage.wxml-->
+
+<view bindtap='add'>
+<view class='box'>
+<image src='../../image/addicon.png' mode='aspectFit' class='icon'></image>
+</view>
+<view class='textbox'>
+点击添加发布
+</view>
+</view>

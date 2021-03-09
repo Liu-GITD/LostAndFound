@@ -1,0 +1,25 @@
+<!--pages/mydetail/mydetail.wxml-->
+<!-- <block wx:for="{{detaiList}}"> -->
+
+<!-- <view class="label_header-content" wx:for="{{detaiList}}">
+    <image class="label_photo"mode="aspectFit"src="https://i.loli.net/2017/08/21/599a521472424.jpg"></image>
+      <view class='label_thingname'>
+      物品:{{item.thingname}}
+      </view>
+      <i-icon type="close" class='delete' />
+    </view> -->
+<!-- </block> -->
+<block wx:for="{{currentList}}">
+
+	<view class="label_header-content" bindtap="toDetail">
+		<image class="label_photo" mode="aspectFit" src="{{item.fileID}}" id='{{item._id}}'></image>
+		<view class='label_thingname' id='{{item._id}}'>
+			物品：{{item.thingname}}
+		</view>
+		<view class='label_select' id='{{item._id}}'>
+			类型：{{item.select}}
+		</view>
+		<i-icon type="close" class='delete' bindtap='delete' id='{{item._id}}' size='30' color='red' />
+
+	</view>
+</block>

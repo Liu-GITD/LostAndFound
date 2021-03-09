@@ -1,0 +1,68 @@
+<form bindsubmit='comfirm'>
+	<checkbox-group bindchange='radioChange'>
+		<view class='chenkbox'>
+			<checkbox value='lost' name="lost">寻物</checkbox>
+			<checkbox value='found' name="found">招领</checkbox>
+		</view>
+	</checkbox-group>
+	<view class="labelbox space">
+		<view class="labeltitlebox">
+			<view class="labeltitle">物品名</view>
+		</view>
+		<view class="inputbox">
+			<input name='thingname' class="input" type='text' placeholder="请输入物品名" />
+		</view>
+	</view>
+	<view class='imgbox space'>
+		<i-input type="textarea" title="详情" placeholder="请输入物品详情(最多50字)" maxlength="50" name="thingdetail" />
+		<block wx:for="{{files}}">
+			<view class='addbox'>
+				<view class='imgsmallbox'>
+					<i-icon type="delete_fill" class='delete' bindtap='deleteimg' size="20" />
+					<image src='{{item}}' class='img' mode='aspectFill'></image>
+
+				</view>
+			</view>
+		</block>
+
+		<view class='addlogo' bindtap='chooseImage'>
+			<i-icon type="add" size='75' />
+		</view>
+
+	</view>
+
+
+
+	<view class="labelbox space">
+		<view class="labeltitlebox">
+			<view class="labeltitle">手机号</view>
+		</view>
+		<view class="inputbox">
+			<input name='phone' class="input" type='text' placeholder="请输入您的手机号码" />
+		</view>
+	</view>
+
+
+	<view class="labelbox space">
+		<view class="labeltitlebox">
+			<view class="labeltitle">姓名</view>
+		</view>
+		<view class="inputbox">
+			<input name='name' class="input" type='text' placeholder="请输入您的姓名" />
+		</view>
+	</view>
+
+
+	<view class="section">
+		<view class="section__title">日期</view>
+		<picker mode="date" value="{{date}}" start="2021-09-01" end="2022-09-01" bindchange="bindDateChange">
+			<view class="picker">
+				{{date}}
+			</view>
+		</picker>
+	</view>
+
+	<button form-type='submit' type='warn'>发布</button>
+
+</form>
+

@@ -1,0 +1,27 @@
+/* pages/addpage/addpage.wxss */
+.icon{
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+}
+.box{
+  position: relative;
+  top: 295rpx;
+  left: 285rpx;
+  background-color: hsl(190, 17%, 93%);
+   display: block;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius:24rpx;
+}
+.textbox{
+
+    position: relative;
+  top: 295rpx;
+  left: 283rpx;
+  
+   display: block;
+  width: 6rem;
+  font-size: 28rpx;
+  border-radius:24rpx;
+}

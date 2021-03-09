@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class='top'>
+	<image src='../../image/door.png' mode='aspectFit' style=' width:100%;'></image>
+</view>
+
+<view class="listContainer">
+	<view class="fenlei">
+	<button bindtap='xunwu' id="寻物">寻物</button>
+	<button bindtap='zhaoling' id='招领'>招领</button>
+	</view>
+
+	<view class="itemContainer">
+	<block wx:for="{{currentList}}" >
+		<label for="{{item._id}}">
+		<view class="listItem">
+		<image id='{{item._id}}' bindtap='toDetail' mode="center" class="itemImg" src="{{item.fileID}}" ></image>
+		<text id='{{item._id}}' bindtap='toDetail' class="itemInfo">物品：{{item.thingname}} 
+		类型：{{item.select}} 		
+		{{item.time}}</text>
+		</view>
+		</label>
+	</block>
+	</view>
+	<view class="tips">------      底线      ------</view>
+	
+	
+</view>

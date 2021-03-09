@@ -1,0 +1,92 @@
+/* pages/mydetail/mydetail.wxss */
+.section{
+  padding: 20px;
+}
+.btn{
+  padding-left: 175rpx;
+  display: block;
+  width: 400rpx;
+}
+.thumb-class{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 100rpx;
+}
+.label_header{
+  display: block;
+  height: 90rpx;
+}
+.label_box{
+  display: block;
+  height: 110rpx;
+}
+.label_photo{
+display:block;
+width:80px;
+height:80px;
+margin-left:25rpx;
+margin-top: 16rpx;
+overflow:hidden;
+background-size:cover;
+}
+.label_thingname{
+  margin-top:80rpx;
+  margin-left:90rpx;
+
+}
+.label_header-content{
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(195, 203, 207, 0.301);
+  margin-bottom: 15rpx;
+  position: relative;
+}
+.delete{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.label_photo{
+display:block;
+width:160rpx;
+height:160rpx;
+margin-left:25rpx;
+margin-top: 16rpx;
+overflow:hidden;
+background-size:cover;
+}
+.label_thingname{
+ position: absolute; 
+top: -11rpx;
+left: 125rpx;
+font-size: 30rpx;
+}
+.label_select{
+ position: absolute; 
+top: 68rpx;
+left: 450rpx;
+font-size: 30rpx;
+}
+.browse{
+   position: absolute;
+  top: 35%;
+  right: 20rpx;
+}
+.label_header-content{
+  display: flex,block;
+  width: 750rpx;
+  
+  border-bottom: 1px solid rgba(195, 203, 207, 0.301);
+  margin-bottom: 15rpx;
+  position: relative;
+}

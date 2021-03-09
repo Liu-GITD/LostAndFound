@@ -1,0 +1,49 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/me/me",
+        "pages/add/add",
+        "pages/detail/detail",
+        "pages/mydetail/mydetail",
+        "pages/addpage/addpage",
+        "pages/about/about",
+        "pages/zhaoling/zhaoling",
+        "pages/xunwu/xunwu"
+    ],
+    "window": {
+        "backgroundColor": "#1296db",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#1296db",
+        "navigationBarTitleText": "GDUT失物招领",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "广场",
+                "iconPath": "image/index.png",
+                "selectedIconPath": "image/index1.png",
+                "color": "#ccc",
+                "selectedColor": "#1296db"
+            },
+            {
+                "pagePath": "pages/addpage/addpage",
+                "text": "发布",
+                "iconPath": "image/add.png",
+                "selectedIconPath": "image/add1.png",
+                "color": "#ccc",
+                "selectedColor": "#1296db"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "text": "我的",
+                "iconPath": "image/me.png",
+                "selectedIconPath": "image/me1.png",
+                "color": "#ccc",
+                "selectedColor": "#1296db"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

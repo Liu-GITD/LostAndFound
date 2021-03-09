@@ -1,0 +1,101 @@
+/* pages/detail/detail.wxss */
+.chenkbox{
+  display: flex;
+  justify-content: space-around
+}
+.addlogo{
+  display: block;
+  width: 75px;
+  border: 1px solid #d9d9d9;
+  height: 75px;
+  margin: 20px;
+}
+.imgsmallbox{
+  margin: 50rpx;
+  display: block;
+   width: 79px;
+   height: 79px;
+   position: relative;
+}
+
+.img{
+   display: block;
+   width: 79px;
+   height: 79px;
+}
+
+.delete{
+  position: absolute;
+   top: 0;
+   right: 0;
+   color: red;
+   
+}
+.imgbox{
+  border: 1px solid #d9d9d9;
+  display: flex;
+  flex-wrap: wrap;
+}
+.labelbox{
+  border: 1px solid #d9d9d9;
+  padding: 15px;
+  height: 40rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.space{
+  margin-top: 30rpx;
+}
+.labeltitlebox{
+  margin-left: 30rpx;
+  display: block;
+  width: 260rpx;
+}
+.inputbox{
+  margin-left: 30rpx;
+  display: block;
+  width: 490rpx;
+}
+.labelbox1{
+  border: 1px solid #d9d9d9;
+  padding: 15px;
+  height: 3em;
+  display: block;
+  position: relative;
+  justify-content: space-around;
+}
+.inputbox1{
+  margin-right: 30rpx;
+  display: block;
+  width: 490rpx;
+  height: 3em;
+  word-break:break-all;
+  padding: 10rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.labeltitle{
+font-family:-apple-system-font,Helvetica Neue,sans-serif;
+}
+.section{
+  padding: 15px;
+  height: 40rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.section__title{
+  margin-left: 30rpx;
+  display: block;
+  width: 350rpx;
+}
+.picker{
+  margin-left: 30rpx;
+  display: block;
+  width: 400rpx;
+}
+.pho{
+  display: block;
+  margin-left: 53rpx;
+}

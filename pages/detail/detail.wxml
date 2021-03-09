@@ -1,0 +1,53 @@
+<!--pages/detail/detail.wxml-->
+
+<view class="labelbox space">
+	<view class="labeltitlebox">
+		<view class="labeltitle">物品名</view>
+	</view>
+	<view class="inputbox">
+		{{thingname}}
+	</view>
+</view>
+<view class='labelbox1 space'>
+	<view class="labeltitlebox">
+		<view class="labeltitle">详情</view>
+	</view>
+	<view class="inputbox1">
+		{{thingdetail}}
+	</view>
+
+</view>
+
+
+
+<view class="labelbox space">
+	<view class="labeltitlebox">
+		<view class="labeltitle">手机号</view>
+	</view>
+	<view class="inputbox">
+		{{phone}}
+	</view>
+</view>
+<view class="labelbox">
+	<view class="labeltitlebox">
+		<view class="labeltitle">姓名</view>
+	</view>
+	<view class="inputbox">
+		{{name}}
+	</view>
+</view>
+
+
+<view class="section">
+	<view class="section__title">日期</view>
+
+	<view class="picker">
+		{{time}}
+	</view>
+</view>
+
+
+
+<view class="pho">
+	<image src='{{photo}}' mode='aspectFit' bindtap="previewImage"></image>
+</view>

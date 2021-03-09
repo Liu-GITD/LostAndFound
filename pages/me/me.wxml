@@ -1,0 +1,27 @@
+<view class="me-container">
+	<button class="user-base-info" open-type="getUserInfo" bindtap="onGetUserInfo">
+		<image class="avatar" src="{{user.avatar}}" mode="aspectFill"></image>
+		<view class="username">{{user.name}}</view>
+	</button>
+	<view class='user' bindtap='tomydetail'>
+		<i-icon type="activity" class='icon' size='20' color='#0de1c5' />
+		<view class='user_left'>我的发布</view>
+		<view class='user_right'>
+			<i-icon type="enter" />
+		</view>
+	</view>
+
+
+	<view class='user'>
+		<i-icon type="addressbook" class='icon' size='20' color='#0de1c5' />
+		<view class='user_left' bindtap='about'>关于我们</view>
+		<view class='user_right'>
+			<i-icon type="enter" />
+		</view>
+	</view>
+	<button open-type="contact" class="weui-cell weui-cell_access list" hover-class="none">
+
+		<view class="weui-cell__bd" style='margin-bottom:-1px;'>联系客服</view>
+		<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+	</button>
+</view>

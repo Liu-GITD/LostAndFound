@@ -1,0 +1,25 @@
+/* pages/about/about.wxss */
+.page__title{
+  padding-left: 132rpx;
+}
+.text1{
+  padding-left: 284rpx;
+}
+.text2{
+  padding-left: 144rpx;
+
+}
+.text3{
+  /* background-color: blueviolet; */
+  display: block;
+  width: 750rpx;
+  text-align: center;
+}
+.page__hd{
+  position: absolute;
+  top: 25%;
+}
+.page_d{
+  position: absolute;
+  top: 40%;
+}

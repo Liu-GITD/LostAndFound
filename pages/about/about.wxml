@@ -1,0 +1,16 @@
+<view class="page">
+    <view class="page__hd" style='padding:20px;'>
+        <view class="text3">由广东工业大学刘杏强运营</view>
+        
+    </view>
+    <!-- <view class="page__bd page__bd_spacing"> -->
+        <view class="page_d">
+            <view class="text3">感谢使用</view>
+            
+            <view class="text3">欢迎联系：15089487404</view>
+        </view>
+
+
+
+    <!-- </view> -->
+</view>

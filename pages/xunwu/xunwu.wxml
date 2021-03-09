@@ -1,0 +1,18 @@
+<!--pages/xunwu.wxml-->
+<view class="listContainer">
+	<view class="itemContainer">
+	<block wx:for="{{currentList}}" >
+		<label for="{{item._id}}">
+		<view class="listItem">
+		<image id='{{item._id}}' bindtap='toDetail' mode="center" class="itemImg" src="{{item.fileID}}" ></image>
+		<text id='{{item._id}}' bindtap='toDetail' class="itemInfo">物品：{{item.thingname}} 
+		类型：{{item.select}} 		
+		{{item.time}}</text>
+		</view>
+		</label>
+	</block>
+	</view>
+	<view class="tips">------      底线      ------</view>
+	
+	
+</view>
